@@ -38,6 +38,6 @@ function getCompiler(opt) {
     })
 }
 
-
+exports.name = 'clone';
 exports.banner = banner
 exports.getCompiler = getCompiler
