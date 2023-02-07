@@ -11,7 +11,8 @@
     "build:aio": "rollup -c config/rollup.config.aio.js",
     "build": "npm run build:self && npm run build:esm && npm run build:aio",
     "test": "cross-env NODE_ENV=test nyc mocha",
-    "test:puppeteer": "node test/browser/puppeteer.js"
+    "test:puppeteer": "node test/browser/puppeteer.js",
+    "postinstall": "node postinstall.js"
   },
   "author": "",
   "license": "MIT",
