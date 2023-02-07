@@ -1,5 +1,5 @@
 {
-  "name": "clone",
+  "name": "@p-der/clone",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
