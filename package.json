@@ -17,6 +17,10 @@
   "license": "MIT",
   "sideEffects": false,
   "files": ["/dist", "LICENSE"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-runtime": "^7.19.6",
