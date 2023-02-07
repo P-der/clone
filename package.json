@@ -16,6 +16,7 @@
   "author": "",
   "license": "MIT",
   "sideEffects": false,
+  "files": ["/dist", "LICENSE"],
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-runtime": "^7.19.6",
