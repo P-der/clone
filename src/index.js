@@ -12,7 +12,7 @@ export function clone(sourse) {
   if (t === "object") {
     target = {};
     for (let i in sourse) {
-      if (sourse.hasOwnProperty(i)) {
+      if (Object.prototype.hasOwnProperty.call(sourse, i)) {
         target[i] = clone(sourse[i]);
       }
     }
