@@ -1,11 +1,11 @@
 // node 环境
-var common = require('./rollup')
+var common = require("./rollup");
 module.exports = {
-    input: 'src/index.js',
-    output: {
-        file: 'dist/index.js',
-        format: 'cjs',
-        banner: common.banner
-    },
-    plugins: [common.getCompiler()]
-}
+  input: "src/index.js",
+  output: {
+    file: "dist/index.js",
+    format: "cjs",
+    banner: common.banner,
+  },
+  plugins: [common.getCompiler()],
+};
